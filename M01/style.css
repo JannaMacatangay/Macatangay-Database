@@ -1,0 +1,149 @@
+/* Body and Layout */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+}
+
+/* Navbar */
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+/* Post Display Container */
+.post-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 182, 193, 0.3);
+}
+
+.post-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #d63384;
+    text-align: center;
+}
+
+/* Post Styling */
+.post {
+    padding: 15px;
+    border-bottom: 1px solid #ff99bb;
+    margin-bottom: 10px;
+    background-color: #ffe6f0;
+    border-radius: 8px;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post h2 {
+    font-size: 1.2em;
+    color: #d63384;
+    margin: 0 0 10px;
+}
+
+.post p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #bf5f82;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #999;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.4s;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: 500;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.card-footer {
+    background-color: #e9ecef;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Insert Form Styling */
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(255, 182, 193, 0.3);
+    margin-top: 30px;
+}
+
+.form-container h3 {
+    font-size: 1.5em;
+    color: #d63384;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form Input and Textarea */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #d63384;
+    outline: none;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #d63384;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #bf2d74;
+}
