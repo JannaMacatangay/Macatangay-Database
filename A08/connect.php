@@ -2,7 +2,7 @@
   $dbhost = "localhost";
 	$dbuser = "root";
 	$dbpass = "";
-	$db = "db1";
+	$db = "pupairport";
 
 	$conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Connect failed: %s\n". $conn -> error);
 
@@ -17,3 +17,4 @@
     return mysqli_query($conn, $query);
   }
 ?>
+

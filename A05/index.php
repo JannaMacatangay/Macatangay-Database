@@ -1,10 +1,11 @@
 <?php
 include("connect.php");
 
-$query = "SELECT u.firstName, u.lastName, p.content AS postContent, p.dateTime AS postDateTime, p.postID 
-          FROM userinfo u 
-          JOIN posts p ON u.userInfoID = p.userInfoID"; 
+$query = "SELECT u.firstName, u.lastName, p.content AS postContent, p.dateTime AS postDateTime, p.postID
+        FROM userinfo u
+         JOIN posts p ON u.userID = p.userID;";
 $result = executeQuery($query);
+
 ?>
 
 <!DOCTYPE html>

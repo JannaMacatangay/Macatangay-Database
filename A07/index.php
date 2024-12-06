@@ -30,7 +30,7 @@ if (isset($_POST['btnDeletePost'])) {
 
 $query = "SELECT u.firstName, u.lastName, p.content AS postContent, p.dateTime AS postDateTime, p.postID 
           FROM userinfo u 
-          JOIN posts p ON u.userInfoID = p.userInfoID";
+          JOIN posts p ON u.userID = p.userID";
 $result = executeQuery($query);
 ?>
 
